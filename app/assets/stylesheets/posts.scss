@@ -1,0 +1,31 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.post-form {
+	margin: 0 auto;
+	resize: none;
+	width: 50%;
+	height: 140px;
+	margin-left: 20%;
+}
+
+// editform
+.textarea {
+	width: 50%;
+	margin: 0 auto;
+}
+
+textarea {
+	resize: none;
+	width: 50%;
+	height: 140px;
+	margin-left: 20%;
+}
+
+
+.posts-item a{
+   text-decoration-line: none;
+   color: rgb(0, 0, 0);
+}
+

@@ -1,0 +1,45 @@
+// Place all the styles related to the homes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+#main-list {
+	width: 25%;
+	list-style: none;
+	padding: 20px;
+	background-color: rgb(250, 250, 250);
+	border-right: 1px solid rgb(211, 211, 211);
+}
+
+#main-list li {
+	margin-bottom:  20px;
+	text-align: center;
+}
+#main-list a {
+	text-decoration-line: none;
+	color: rgb(0, 0, 0)
+}
+
+.header-menu {
+	width: 40%;
+	background-color: rgb(250, 250, 250);
+	height: 60px;
+	border-bottom: 1px solid rgb(211, 211, 211);
+	border-right: 1px solid rgb(211, 211, 211);
+	padding: 20px;
+}
+
+.header-menu p{
+	width: 15%;
+	background-color: rgba(91, 199, 241, 0.925);
+	border-radius: 10px;
+	text-align: center;
+	padding: 10px;
+	margin-left: 80%;
+}
+.header-menu p a{
+	color: rgb(255, 255, 255);
+}
+
+.header-menu a {
+	color: rgb(0, 0, 0);
+	text-decoration-line: none;
+}
